@@ -1,0 +1,12 @@
+<p>binding works!</p>
+<div class="container">
+    <div class="main">
+        <button class="btn btn-success" (click)="toggle()">Click And Wow</button>
+        <input [(ngModel)]="textinput" type="text" placeholder="הכנס נושא" (keyup)="ChangeAlt()">
+    </div>
+
+    <figure>
+        <figcaption>{{image.alt}}</figcaption>
+        <img [src]="image.url" [alt]="image.alt" [title]="image.alt" id="mainimg">
+    </figure>
+</div>

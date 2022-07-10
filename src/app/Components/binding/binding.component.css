@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainimg
+{
+   width: 100%;
+}
+
+/* figure{
+    display: flex;
+    justify-content: center;
+} */
