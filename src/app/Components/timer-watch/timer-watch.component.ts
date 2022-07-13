@@ -10,6 +10,7 @@ export class TimerWatchComponent {
   title:string=''
   counter:number =1000
   interval:any
+  
   time:{houres:number;minute:number;seconds:number} = {houres:0,minute:0,seconds:0}
   
   constructor() { 
