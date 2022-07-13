@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="header text-warning w-100 text-center h1">{{title}}</div>
+    <div class="body text-success w-100 text-center h1 bg-black">
+        {{time.houres }} : {{time.minute}} : {{time.seconds}}
+    </div>
+    <div class="selector text-warning w-100 text-center h1">
+        <select [(ngModel)]="time.houres" name="houres" id="houres"></select>
+        <select [(ngModel)]="time.minute" name="minute" id="minute"></select>
+        <select  [(ngModel)]="time.seconds" name="seconds" id="seconds"></select>
+
+
+
+    </div>
+
+
+    <div class="buttons text-warning w-100 text-center h1">
+        <button class="btn btn-warning p-2 m-2" (click)="handlecounter('reset')">Reset</button>
+        <button class="btn btn-danger p-2 m-2" (click)="handlecounter('stop')">Stop</button>
+        <button class="btn btn-success p-2 m-2" (click)="handlecounter('continue')">Run</button>
+    </div>
+
+</div>

@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'royal-crm';
   WelcomeText = 'Hello And Welcome To iMiro CRM';
+
 }
